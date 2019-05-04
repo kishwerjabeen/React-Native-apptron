@@ -1,0 +1,58 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Calculator By KJ</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript"  src="cal.js"></script>
+		<script type="text/javascript">
+			
+		</script>
+	</head>
+	<body>
+		<div class="a">
+			<div class="cal">
+
+				<form  name="form">
+					<input  name="textview" class="view"> <br>
+					<table>
+					<tr>
+						<td><input class="but" type="button" name="" value="C"></td>
+						<td><input class="but" type="button" name="" value="<"></td>
+						<td><input class="but" type="button" name="" value="/" onclick="document.form.textview.value += '/'"></td>
+						<td><input class="but" type="button" name="" value="*" onclick="document.form.textview.value += '*'"></td>
+					</tr>
+
+					<tr>
+						<td><input class="but" type="button" name="" value="7" onclick="document.form.textview.value += '7'"></td>
+						<td><input class="but" type="button" name="" value="8" onclick="document.form.textview.value += '8'"></td>
+						<td><input class="but" type="button" name="" value="9" onclick="document.form.textview.value += '9'"></td>
+						<td><input class="but" type="button" name="" value="+" onclick="document.form.textview.value += '+'"></td>
+					</tr>
+
+						<tr>
+						<td><input class="but" type="button" name="" value="4" onclick="document.form.textview.value += '4'"></td>
+						<td><input class="but" type="button" name="" value="5" onclick="document.form.textview.value += '5'"></td>
+						<td><input class="but" type="button" name="" value="6" onclick="document.form.textview.value += '6'"></td>
+						<td><input class="but" type="button" name="" value="-" onclick="document.form.textview.value += '-'"></td>
+					</tr>
+
+					
+
+						<tr>
+						<td><input class="but" type="button" name="" value="1" onclick="document.form.textview.value += '1'"></td>
+						<td><input class="but" type="button" name="" value="2" onclick="document.form.textview.value += '2'"></td>
+						<td><input class="but" type="button" name="" value="3" onclick="document.form.textview.value += '3'"></td>
+						<td><input class="but" type="button" name="" value="=" onclick="document.form.textview.value = eval(form.textview.value)"></td>
+					</tr>
+
+
+					
+					</table>
+				</form>
+				
+			</div>
+			
+		</div>
+
+	</body>
+	</html>
